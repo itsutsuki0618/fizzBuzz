@@ -1,6 +1,6 @@
 package com.example.demo.fizzBuzz;
 
-import java.util.ArrayList;
+import java.util.List;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,10 +17,8 @@ public class FizzBuzzController {
 
 	@GetMapping("fizzBuzz")
 	public String fizzBuzz(Model model) {
-
-		ArrayList<String> result = new ArrayList<String>();
-
-		result = fizzBuzzService.FizzBuzz();
+		
+		List<String> result = fizzBuzzService.FizzBuzz();
 
 		model.addAttribute("result", result);
 
