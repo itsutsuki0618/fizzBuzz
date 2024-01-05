@@ -15,7 +15,7 @@ public class calculatorService {
 		  case "times":
 			  result = firstNumber * secondNumber ;
 			  break;
-		  case "devide":
+		  case "divide":
 			  result = firstNumber / secondNumber ;
 			  break;
 		}  

@@ -16,8 +16,8 @@ public class AnimalsController {
 
 	private final AnimalsService animalsService;
 
-	public AnimalsController(AnimalsService animalsservice) {
-		this.animalsService = animalsservice;
+	public AnimalsController(AnimalsService animalsService) {
+		this.animalsService = animalsService;
 	}
 
 	@GetMapping("animalsSearch")
